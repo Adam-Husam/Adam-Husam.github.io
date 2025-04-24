@@ -1,10 +1,160 @@
-<!doctype html>
-<html>
+  <!DOCTYPE html>
+    <html lang="sv">
     <head>
-        <!-- länk till extern stilfil -->
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Gustav Adolfs torg i Malmö</title>
+      <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet" />
+      <style>
+        /* Grundläggande stilar */
+        body {
+          margin: 0;
+          font-family: 'Montserrat', sans-serif;
+          background-color: #f4f4f4;
+          color: #333;
+        }
+    
+        header {
+          background-image: url('images/gustav_adolfs_torg.jpg');
+          background-size: cover;
+          background-position: center;
+          height: 60vh;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          color: white;
+          text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+        }
+    
+        header h1 {
+          font-size: 3em;
+          animation: fadeIn 2s ease-in-out;
+        }
+    
+        nav {
+          background-color: #333;
+          display: flex;
+          justify-content: center;
+        }
+    
+        nav a {
+          color: white;
+          padding: 1em;
+          text-decoration: none;
+          transition: background 0.3s;
+        }
+    
+        nav a:hover {
+          background-color: #555;
+        }
+    
+        main {
+          padding: 2em;
+          max-width: 1200px;
+          margin: auto;
+        }
+    
+        section {
+          margin-bottom: 2em;
+        }
+    
+        h2 {
+          color: #0066cc;
+          border-bottom: 2px solid #0066cc;
+          padding-bottom: 0.5em;
+        }
+    
+        .gallery {
+          display: flex;
+          flex-wrap: wrap;
+          gap: 1em;
+        }
+    
+        .gallery img {
+          width: 100%;
+          max-width: 300px;
+          border-radius: 8px;
+          transition: transform 0.3s;
+        }
+    
+        .gallery img:hover {
+          transform: scale(1.05);
+        }
+    
+        iframe {
+          width: 100%;
+          height: 400px;
+          border: none;
+          border-radius: 8px;
+        }
+    
+        footer {
+          background-color: #333;
+          color: white;
+          text-align: center;
+          padding: 1em;
+        }
+    
+        /* Animationer */
+        @keyframes fadeIn {
+          from { opacity: 0; transform: translateY(-20px); }
+          to { opacity: 1; transform: translateY(0); }
+        }
+    
+        /* Responsiv design */
+        @media (max-width: 768px) {
+          header h1 {
+            font-size: 2em;
+            text-align: center;
+            padding: 0 1em;
+          }
+    
+          .gallery {
+            flex-direction: column;
+            align-items: center;
+          }
+        }
+      </style>
     </head>
     <body>
-        <h1>Yo Yo</h1>
-        <h2>Gustav Adolfs Torg</h2>
-    </body>
-</html>
+    
+      <header>
+        <h1>Gustav Adolfs torg i Malmö</h1>
+      </header>
+    
+      <nav>
+        <a href="#historia">Historia</a>
+        <a href="#konst">Konst & Skulpturer</a>
+        <a href="#evenemang">Evenemang</a>
+        <a href="#karta">Karta</a>
+      </nav>
+    
+      <main>
+        <section id="historia">
+          <h2>Historia</h2>
+          <p>
+            Gustav Adolfs torg, ofta kallat "Gustav" av Malmöborna, är ett centralt och historiskt torg i Malmö. Det är beläget mellan Stortorget och Triangeln och har varit en viktig plats för stadens utveckling sedan början av 1800-talet. Torget är uppkallat efter kung Gustav IV Adolf, som residerade i Malmö mellan november 1806 och maj 1807, en period då staden fungerade som Sveriges huvudstad.
+          </p>
+          <p>
+            Innan torget anlades var området en sankmark precis utanför den gamla stadsvallen. Åren 1806–1807 började platsen omvandlas till ett torg, och träd planterades för att skapa en grön oas.
+          </p>
+          <p>
+            Redan 1887 började hästspårvagnar trafikera torget. När spårvagnarna elektrifierades 1906–1907 blev Gustav Adolfs torg stadens centrala knutpunkt för kollektivtrafik. Den sista spårvagnslinjen, linje 4 till Limhamn/Sibbarp, lades ner 1973.
+          </p>
+        </section>
+    
+        <section id="konst">
+          <h2>Konst & Skulpturer</h2>
+          <div class="gallery">
+            <img src="images/lekande_barn.jpg" alt="Lekande barn skulptur" />
+            <img src="images/oresundsfontanen.jpg" alt="Öresundsfontänen" />
+            <img src="images/fem_fontaner.jpg" alt="Fem fontäner och ett klot" />
+          </div>
+          <p>
+            I torgets mitt står skulpturen "Lekande barn" av Anders Jönsson, uppförd 1914. Den föreställer tre barn som leker kring en liten fontän och har blivit en av Malmös mest älskade konstverk.
+          </p>
+          <p>
+            På torgets västra sida
+    ::contentReference[oaicite:18]{index=18}
+     
+    
